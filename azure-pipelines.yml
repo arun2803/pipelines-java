@@ -21,6 +21,6 @@ steps:
   inputs:
     containerRegistry: 'a2803ksdocker'
     repository: 'java-app'
-    command: 'buildAndPush'
+    command: 'build'
     Dockerfile: '**/Dockerfile'
 
